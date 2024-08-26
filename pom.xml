@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.itmo</groupId>
-    <artifactId>testTask</artifactId>
+    <artifactId>CaseLab</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>testTask</name>
-    <description>testTask</description>
+    <name>CaseLab</name>
+    <description>CaseLab</description>
     <url/>
     <licenses>
         <license/>
