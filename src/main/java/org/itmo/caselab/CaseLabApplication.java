@@ -1,0 +1,13 @@
+package org.itmo.caselab;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CaseLabApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CaseLabApplication.class, args);
+    }
+
+}

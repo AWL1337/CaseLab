@@ -1,0 +1,22 @@
+GET http://localhost:8080/api/file/1
+###
+
+GET http://localhost:8080/api/file
+###
+
+GET http://localhost:8080/api/file?size=2&page=1
+###
+
+GET http://localhost:8080/api/file?asc=true
+###
+
+POST http://localhost:8080/api/file
+Content-Type: application/json
+
+{
+  "title": "test_new",
+  "description": "test_new",
+  "fileBase64": "test_new",
+  "creationDate": "2021-01-01"
+}
+###
